@@ -11,7 +11,7 @@
 * {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   box-sizing: border-box;
 }
 
@@ -39,6 +39,9 @@ section#idLogin {
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
 }
 
 section#idLogin > div#idImagem {
